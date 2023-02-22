@@ -88,7 +88,7 @@ def FFP(zm=None, z0=None, umean=None, h=None, ol=None, sigmav=None, ustar=None,
     if h <= 10.: raise_ffp_exception(4)
     if zm > h: raise_ffp_exception(5)        
     if z0 is not None and umean is None and zm <= 12.5*z0:
-        if rslayer is 1: raise_ffp_exception(6)
+        if rslayer == 1: raise_ffp_exception(6)
         else: raise_ffp_exception(12)
     if float(zm)/ol <= -15.5: raise_ffp_exception(7)
     if sigmav <= 0: raise_ffp_exception(8)
