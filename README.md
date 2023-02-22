@@ -7,6 +7,7 @@ A simple two-dimensional parameterisation for Flux Footprint Prediction (FFP)
 
 ```shell
 conda env create -f environment.yml
+pip install --upgrade -e .
 ```
 
 ## Usage
