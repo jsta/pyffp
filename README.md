@@ -12,7 +12,8 @@ conda env create -f environment.yml
 ## Usage
 
 ```shell
-
+# testing
+python -m pytest
 ```
 
 Citation: Kljun, N., Calanca, P., Rotach, M. W., and Schmid, H. P.:
