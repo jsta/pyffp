@@ -1,0 +1,8 @@
+name: pyffp
+channels:
+- conda-forge
+dependencies:
+        - python>3
+        - pytest
+        - pip
+        - numpy
