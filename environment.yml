@@ -8,3 +8,8 @@ dependencies:
         - numpy
         - matplotlib
         - scipy
+        - geopandas
+        - geopy
+        - pip
+        - pip:
+                - geojsoncontour
