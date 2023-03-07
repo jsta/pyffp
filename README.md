@@ -10,10 +10,13 @@ conda env create -f environment.yml
 pip install --upgrade -e .
 ```
 
-## Usage
+## Demo
+
+[https://nbviewer.org/github/jsta/pyffp/blob/main/docs/notebooks/pyffp_demo.ipynb](https://nbviewer.org/github/jsta/pyffp/blob/main/docs/notebooks/pyffp_demo.ipynb)
+
+## Testing
 
 ```shell
-# testing
 python -m pytest
 ```
 
