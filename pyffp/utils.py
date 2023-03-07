@@ -11,7 +11,6 @@ def get_dd(x, origin_lon=0, origin_lat=0):
     )[0]
 
 
-def contour_to_gpkg(cp, out_file="test.gpkg"):
+def contour_to_gdf(cp, out_file="test.gpkg"):
     geojson = geojsoncontour.contour_to_geojson(contour=cp, ndigits=6, unit="m")
-    gdf = gpd.read_file(geojson, driver="GeoJSON")
-    gdf.to_file(out_file, driver="GPKG")
+    return gpd.read_file(geojson, driver="GeoJSON")    

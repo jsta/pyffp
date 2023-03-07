@@ -2,12 +2,16 @@ name: pyffp
 channels:
 - conda-forge
 dependencies:
+        # core dependencies
         - python>3
         - pytest
         - pip
         - numpy
         - matplotlib
-        - scipy
+        - scipy        
+        # extras
+        - jupyterlab
+        - folium
         - geopandas
         - geopy
         - pip
