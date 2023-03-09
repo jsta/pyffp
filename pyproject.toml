@@ -8,6 +8,13 @@ version = "0.0.2"
 authors = [
   { name="Jemma Stachelek", email="jsta@lanl.gov" },
 ]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "geopandas",
+    "geopy",
+]
 description = "A simple two-dimensional parameterisation for Flux Footprint Prediction (FFP)"
 readme = "README.md"
 requires-python = ">=3.7"
